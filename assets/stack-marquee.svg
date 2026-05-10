@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 56" width="100%" role="img" aria-label="stack ticker">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.06" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="0.94" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="edgeMask">
+      <rect width="1200" height="56" fill="url(#fade)"/>
+    </mask>
+  </defs>
+
+  <rect width="1200" height="56" rx="8" fill="#0a0420"/>
+
+  <g mask="url(#edgeMask)">
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+                        values="0 0; -1400 0" dur="28s" repeatCount="indefinite"/>
+
+      <!-- copy 1 -->
+      <g font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11" font-weight="700" letter-spacing="2">
+        <g transform="translate(15,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#ffd43b" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#ffd43b">PYTHON</text></g>
+        <g transform="translate(115,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#ff5722" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#ff5722">RUST</text></g>
+        <g transform="translate(215,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#3178c6" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#3178c6">TYPESCRIPT</text></g>
+        <g transform="translate(315,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#a8b9cc" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#a8b9cc">C</text></g>
+        <g transform="translate(415,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#4479a1" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#4479a1">SQL</text></g>
+        <g transform="translate(515,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#4eaa25" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#4eaa25">BASH</text></g>
+        <g transform="translate(615,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#24c8db" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#24c8db">TAURI</text></g>
+        <g transform="translate(715,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#61dafb" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#61dafb">REACT</text></g>
+        <g transform="translate(815,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#4169e1" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#4169e1">POSTGRES</text></g>
+        <g transform="translate(915,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#dc382d" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#dc382d">REDIS</text></g>
+        <g transform="translate(1015,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#2496ed" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#2496ed">DOCKER</text></g>
+        <g transform="translate(1115,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#fcc624" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#fcc624">LINUX</text></g>
+        <g transform="translate(1215,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#57a143" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#57a143">NEOVIM</text></g>
+        <g transform="translate(1315,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#f05032" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#f05032">GIT</text></g>
+      </g>
+
+      <!-- copy 2 (seamless loop) -->
+      <g font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11" font-weight="700" letter-spacing="2" transform="translate(1400,0)">
+        <g transform="translate(15,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#ffd43b" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#ffd43b">PYTHON</text></g>
+        <g transform="translate(115,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#ff5722" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#ff5722">RUST</text></g>
+        <g transform="translate(215,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#3178c6" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#3178c6">TYPESCRIPT</text></g>
+        <g transform="translate(315,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#a8b9cc" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#a8b9cc">C</text></g>
+        <g transform="translate(415,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#4479a1" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#4479a1">SQL</text></g>
+        <g transform="translate(515,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#4eaa25" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#4eaa25">BASH</text></g>
+        <g transform="translate(615,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#24c8db" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#24c8db">TAURI</text></g>
+        <g transform="translate(715,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#61dafb" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#61dafb">REACT</text></g>
+        <g transform="translate(815,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#4169e1" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#4169e1">POSTGRES</text></g>
+        <g transform="translate(915,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#dc382d" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#dc382d">REDIS</text></g>
+        <g transform="translate(1015,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#2496ed" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#2496ed">DOCKER</text></g>
+        <g transform="translate(1115,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#fcc624" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#fcc624">LINUX</text></g>
+        <g transform="translate(1215,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#57a143" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#57a143">NEOVIM</text></g>
+        <g transform="translate(1315,13)"><rect width="86" height="30" rx="6" fill="#0d0d18" stroke="#f05032" stroke-opacity="0.45"/><text x="43" y="20" text-anchor="middle" fill="#f05032">GIT</text></g>
+      </g>
+    </g>
+  </g>
+</svg>
