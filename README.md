@@ -1,5 +1,4 @@
 <div align="center">
-
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2400&pause=600&color=A78BFA&center=true&vCenter=true&width=720&lines=hi+i%27m+eule+%E2%80%94+self-taught+dev+who+vibes;building+ai%2C+security%2C+and+infra+tooling;leveling+up+to+world-class+%E2%80%94+one+commit+at+a+time" />
 
 <p>
