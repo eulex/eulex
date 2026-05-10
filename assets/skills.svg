@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" role="img" aria-label="skills radar">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d0d18"/>
+      <stop offset="100%" stop-color="#0a0420"/>
+    </linearGradient>
+    <radialGradient id="polyFill" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#a78bfa" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#8a2be2" stop-opacity="0.10"/>
+    </radialGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="50%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8a2be2"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0 L0 0 0 20" stroke="#1a1530" stroke-width="0.5" fill="none"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="480" fill="url(#bg)" rx="12"/>
+  <rect width="900" height="480" fill="url(#grid)" rx="12" opacity="0.4"/>
+
+  <!-- LEFT SIDE: radar -->
+  <g transform="translate(240,240)">
+    <!-- Concentric polygon rings -->
+    <g fill="none" stroke="#2a2050" stroke-width="0.8" opacity="0.7">
+      <polygon points="0,-160 138.6,-80 138.6,80 0,160 -138.6,80 -138.6,-80"/>
+      <polygon points="0,-128 110.9,-64 110.9,64 0,128 -110.9,64 -110.9,-64"/>
+      <polygon points="0,-96 83.1,-48 83.1,48 0,96 -83.1,48 -83.1,-48"/>
+      <polygon points="0,-64 55.4,-32 55.4,32 0,64 -55.4,32 -55.4,-32"/>
+      <polygon points="0,-32 27.7,-16 27.7,16 0,32 -27.7,16 -27.7,-16"/>
+    </g>
+
+    <!-- Spokes -->
+    <g stroke="#2a2050" stroke-width="0.8" opacity="0.7">
+      <line x1="0" y1="0" x2="0" y2="-160"/>
+      <line x1="0" y1="0" x2="138.6" y2="-80"/>
+      <line x1="0" y1="0" x2="138.6" y2="80"/>
+      <line x1="0" y1="0" x2="0" y2="160"/>
+      <line x1="0" y1="0" x2="-138.6" y2="80"/>
+      <line x1="0" y1="0" x2="-138.6" y2="-80"/>
+    </g>
+
+    <!-- Filled skills polygon (animated growth) -->
+    <g filter="url(#glow)">
+      <polygon points="0,-128 110.9,-64 110.9,64 0,96 -110.9,64 -110.9,-64"
+               fill="url(#polyFill)" stroke="url(#edge)" stroke-width="1.8">
+        <animate attributeName="points"
+                 values="0,0 0,0 0,0 0,0 0,0 0,0;
+                         0,-128 110.9,-64 110.9,64 0,96 -110.9,64 -110.9,-64;
+                         0,-128 110.9,-64 110.9,64 0,96 -110.9,64 -110.9,-64"
+                 dur="2s" begin="0s" fill="freeze"/>
+      </polygon>
+    </g>
+
+    <!-- Skill vertices (dots) -->
+    <g fill="#ffffff">
+      <circle cx="0" cy="-128" r="3.5"/>
+      <circle cx="110.9" cy="-64" r="3.5"/>
+      <circle cx="110.9" cy="64" r="3.5"/>
+      <circle cx="0" cy="96" r="3.5"/>
+      <circle cx="-110.9" cy="64" r="3.5"/>
+      <circle cx="-110.9" cy="-64" r="3.5"/>
+    </g>
+
+    <!-- Rotating scan line -->
+    <g opacity="0.35">
+      <line x1="0" y1="0" x2="0" y2="-160" stroke="#ec4899" stroke-width="1.5">
+        <animateTransform attributeName="transform" type="rotate"
+                          from="0" to="360" dur="6s" repeatCount="indefinite"/>
+      </line>
+    </g>
+
+    <!-- Axis labels -->
+    <g font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11" fill="#c9d1d9" text-anchor="middle">
+      <text x="0" y="-178">ai · ml</text>
+      <text x="158" y="-78">security</text>
+      <text x="158" y="92">systems</text>
+      <text x="0" y="184">infra</text>
+      <text x="-158" y="92">tooling</text>
+      <text x="-158" y="-78">frontend</text>
+    </g>
+  </g>
+
+  <!-- RIGHT SIDE: header + bars -->
+  <g transform="translate(490,60)">
+    <text x="0" y="0" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="13" fill="#a78bfa" letter-spacing="3">SKILLS · SELF-RATED</text>
+    <text x="0" y="34" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="34" font-weight="700" fill="#ffffff">eule.profile</text>
+    <text x="0" y="58" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12" fill="#8a8aa0">elo: ascending · self-taught · world-class arc</text>
+
+    <!-- Bars -->
+    <g font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11" fill="#c9d1d9">
+      <g transform="translate(0,100)">
+        <text x="0" y="0">ai · ml</text>
+        <text x="380" y="0" text-anchor="end" fill="#a78bfa">80</text>
+        <rect x="0" y="6" width="380" height="6" rx="3" fill="#1a1530"/>
+        <rect x="0" y="6" width="0" height="6" rx="3" fill="url(#bar)">
+          <animate attributeName="width" from="0" to="304" dur="1.4s" begin="0.2s" fill="freeze"/>
+        </rect>
+      </g>
+      <g transform="translate(0,140)">
+        <text x="0" y="0">security</text>
+        <text x="380" y="0" text-anchor="end" fill="#a78bfa">75</text>
+        <rect x="0" y="6" width="380" height="6" rx="3" fill="#1a1530"/>
+        <rect x="0" y="6" width="0" height="6" rx="3" fill="url(#bar)">
+          <animate attributeName="width" from="0" to="285" dur="1.4s" begin="0.4s" fill="freeze"/>
+        </rect>
+      </g>
+      <g transform="translate(0,180)">
+        <text x="0" y="0">systems</text>
+        <text x="380" y="0" text-anchor="end" fill="#a78bfa">68</text>
+        <rect x="0" y="6" width="380" height="6" rx="3" fill="#1a1530"/>
+        <rect x="0" y="6" width="0" height="6" rx="3" fill="url(#bar)">
+          <animate attributeName="width" from="0" to="258" dur="1.4s" begin="0.6s" fill="freeze"/>
+        </rect>
+      </g>
+      <g transform="translate(0,220)">
+        <text x="0" y="0">infra</text>
+        <text x="380" y="0" text-anchor="end" fill="#a78bfa">60</text>
+        <rect x="0" y="6" width="380" height="6" rx="3" fill="#1a1530"/>
+        <rect x="0" y="6" width="0" height="6" rx="3" fill="url(#bar)">
+          <animate attributeName="width" from="0" to="228" dur="1.4s" begin="0.8s" fill="freeze"/>
+        </rect>
+      </g>
+      <g transform="translate(0,260)">
+        <text x="0" y="0">tooling</text>
+        <text x="380" y="0" text-anchor="end" fill="#a78bfa">70</text>
+        <rect x="0" y="6" width="380" height="6" rx="3" fill="#1a1530"/>
+        <rect x="0" y="6" width="0" height="6" rx="3" fill="url(#bar)">
+          <animate attributeName="width" from="0" to="266" dur="1.4s" begin="1.0s" fill="freeze"/>
+        </rect>
+      </g>
+      <g transform="translate(0,300)">
+        <text x="0" y="0">frontend</text>
+        <text x="380" y="0" text-anchor="end" fill="#a78bfa">72</text>
+        <rect x="0" y="6" width="380" height="6" rx="3" fill="#1a1530"/>
+        <rect x="0" y="6" width="0" height="6" rx="3" fill="url(#bar)">
+          <animate attributeName="width" from="0" to="274" dur="1.4s" begin="1.2s" fill="freeze"/>
+        </rect>
+      </g>
+    </g>
+
+    <!-- Footer line -->
+    <g transform="translate(0,360)">
+      <rect x="0" y="0" width="380" height="1" fill="#2a2050"/>
+      <text x="0" y="22" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10" fill="#6a6a80" letter-spacing="2">STATUS</text>
+      <text x="380" y="22" text-anchor="end" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10" fill="#ec4899">▶ LEVELING UP</text>
+    </g>
+  </g>
+
+  <!-- Decorative corner ticks -->
+  <g stroke="#2a2050" stroke-width="0.8" fill="none" opacity="0.6">
+    <path d="M12 12 L12 28 M12 12 L28 12"/>
+    <path d="M888 12 L888 28 M888 12 L872 12"/>
+    <path d="M12 468 L12 452 M12 468 L28 468"/>
+    <path d="M888 468 L888 452 M888 468 L872 468"/>
+  </g>
+</svg>

@@ -24,8 +24,6 @@
 <img src="https://img.shields.io/badge/git-0d0d0d?style=for-the-badge&logo=git&logoColor=f05032" />
 </p>
 
-<img src="https://github-profile-trophy.vercel.app/?username=eulex&theme=algolia&no-frame=true&no-bg=true&margin-w=8&margin-h=4&row=1&column=7&title=Stars,Followers,Commits,Repositories,PullRequest,Issues,Reviews" />
-
-<img src="https://raw.githubusercontent.com/eulex/eulex/main/profile-3d-contrib/profile-season-animate.svg" width="100%" />
+<img src="https://raw.githubusercontent.com/eulex/eulex/main/assets/skills.svg" width="100%" />
 
 </div>
