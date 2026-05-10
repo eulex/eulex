@@ -19,7 +19,9 @@
 <img src="https://img.shields.io/badge/git-0d0d0d?style=for-the-badge&logo=git&logoColor=f05032" />
 </p>
 
+<p>
 <img src="https://raw.githubusercontent.com/eulex/eulex/main/assets/skills.svg" width="100%" />
+</p>
 
 <p>
 <img src="https://komarev.com/ghpvc/?username=eulex&label=visitors&color=8a2be2&style=for-the-badge&labelColor=000" />
