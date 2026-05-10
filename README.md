@@ -1,6 +1,6 @@
 <div align="center">
 
-# `eule` · [@eulex](https://github.com/eulex)
+# [@eulex](https://github.com/eulex)
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2000&pause=500&color=A78BFA&center=true&vCenter=true&width=720&lines=systems+%C2%B7+intelligence+%C2%B7+research+%C2%B7+engineering;building+machine+understanding;designing+autonomous+systems;%3E+understanding+is+compression" />
 
