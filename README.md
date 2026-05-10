@@ -5,7 +5,7 @@
 <img src="https://img.shields.io/github/stars/eulex?affiliations=OWNER&style=for-the-badge&color=c084fc&labelColor=000&logo=github&logoColor=ffffff" />
 </p>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2000&pause=500&color=A78BFA&center=true&vCenter=true&width=720&lines=systems+%C2%B7+intelligence+%C2%B7+research+%C2%B7+engineering;building+machine+understanding;designing+autonomous+systems;%3E+understanding+is+compression" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2400&pause=600&color=A78BFA&center=true&vCenter=true&width=720&lines=hi+i%27m+eule+%E2%80%94+self-taught+dev+who+vibes;building+ai%2C+security%2C+and+infra+tooling;leveling+up+to+world-class+%E2%80%94+one+commit+at+a+time" />
 
 <p>
 <img src="https://img.shields.io/badge/python-0d0d0d?style=for-the-badge&logo=python&logoColor=ffd43b" />
@@ -24,6 +24,8 @@
 <img src="https://img.shields.io/badge/git-0d0d0d?style=for-the-badge&logo=git&logoColor=f05032" />
 </p>
 
-<img src="https://raw.githubusercontent.com/eulex/eulex/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
+<img src="https://github-profile-trophy.vercel.app/?username=eulex&theme=algolia&no-frame=true&no-bg=true&margin-w=8&margin-h=4&row=1&column=7&title=Stars,Followers,Commits,Repositories,PullRequest,Issues,Reviews" />
+
+<img src="https://raw.githubusercontent.com/eulex/eulex/main/profile-3d-contrib/profile-season-animate.svg" width="100%" />
 
 </div>
