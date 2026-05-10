@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2000&pause=500&color=A78BFA&center=true&vCenter=true&width=720&lines=systems+%C2%B7+intelligence+%C2%B7+research+%C2%B7+engineering;building+machine+understanding;designing+autonomous+systems;%3E+understanding+is+compression" />
-
 <p>
 <img src="https://komarev.com/ghpvc/?username=eulex&label=visitors&color=8a2be2&style=for-the-badge&labelColor=000" />
 <img src="https://img.shields.io/github/stars/eulex?affiliations=OWNER&style=for-the-badge&color=c084fc&labelColor=000&logo=github&logoColor=ffffff" />
 </p>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2000&pause=500&color=A78BFA&center=true&vCenter=true&width=720&lines=systems+%C2%B7+intelligence+%C2%B7+research+%C2%B7+engineering;building+machine+understanding;designing+autonomous+systems;%3E+understanding+is+compression" />
 
 <p>
 <img src="https://img.shields.io/badge/python-0d0d0d?style=for-the-badge&logo=python&logoColor=ffd43b" />
