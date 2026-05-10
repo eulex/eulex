@@ -4,7 +4,9 @@
 
 <img src="https://raw.githubusercontent.com/eulex/eulex/main/assets/stack-marquee.svg" width="100%" />
 
+<p>
 <img src="https://raw.githubusercontent.com/eulex/eulex/main/assets/skills.svg" width="100%" />
+</p>
 
 <p>
 <img src="https://komarev.com/ghpvc/?username=eulex&label=visitors&color=8a2be2&style=for-the-badge&labelColor=000" />
